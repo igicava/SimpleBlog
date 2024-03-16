@@ -9,14 +9,14 @@ import (
 
 	"go.uber.org/zap"
 )
-
+// format json data
 type Posts struct {
 	Title string `json:"title"`
 	Text  string `json:"text"`
 }
 
 const (
-	dbPath = "C:/Users/Kenta/go/src/simpleblog/db.json"
+	dbPath = "" // path to json file
 )
 
 // send
